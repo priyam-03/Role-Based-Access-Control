@@ -43,9 +43,11 @@ const Header = () => {
       </div>
       <nav className="container navigation">
         <NavLink to="/">Home</NavLink>
-        <NavLink to="/login">User Login</NavLink>
-        <NavLink to="/admin-login">Admin Login</NavLink>
-        <NavLink to="/register">Register</NavLink>
+        {!userInfo && !adminInfo && <NavLink to="/login">User Login</NavLink>}
+        {!userInfo && !adminInfo && (
+          <NavLink to="/admin-login">Admin Login</NavLink>
+        )}
+        {!userInfo && !adminInfo && <NavLink to="/register">Register</NavLink>}
         {userInfo && <NavLink to="/user-profile">Profile</NavLink>}
         {adminInfo && <NavLink to="/admin/dashboard">Admin Dashboard</NavLink>}
       </nav>
