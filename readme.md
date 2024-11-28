@@ -1,3 +1,9 @@
+## **Description and Architecture**
+
+For a detailed description and architecture of this project, refer to the [**documentation**](https://drive.google.com/file/d/1HQ6dv5qHTP7QQQUTnCUl2IdJruwjFQLQ/view?usp=sharing).
+
+---
+
 ## Installation
 
 1. Clone the repository:
@@ -6,6 +12,8 @@
    git clone https://github.com/priyam-03/Role-Based-Access-Control.git
    cd Role-Based-Access-Control
    ```
+
+````
 
 2. Install dependencies:
 
@@ -39,3 +47,4 @@
 ```
 
 ```
+````
