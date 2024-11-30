@@ -53,6 +53,11 @@ const AdminLoginScreen = () => {
         <p>
           Not an admin? <Link to="/login">User Login</Link>
         </p>
+        <p>
+          <strong>For admin login use:</strong> <br />
+          <strong>Email:</strong> priyam.saha2003@gmail.com <br />
+          <strong>Password:</strong> 12345678
+        </p>
       </div>
     </form>
   );
